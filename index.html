@@ -1,0 +1,205 @@
+<html>
+
+<head>
+  <title>Manjusha Portfolio</title>
+  <link rel="stylesheet" href="./style.css" />
+  <script src="https://kit.fontawesome.com/3d4cd6a5a7.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="./images/logo1.png" class="logo" />
+        <ul id="sidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+          <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-regular fa-bars" onclick="openmenu()"></i>
+      </nav>
+      <div class="header-text">
+        <p>Front end Developer</p>
+        <h1>Hi, I'm <span>Manjusha </span><br>from Munich</h1>
+      </div>
+    </div>
+  </div>
+  <!-----about -->
+<div id="about">
+  <div class="container">
+    <div class="row">
+    <div class="about-col-1">
+      <img src="./images/manjusha_portfolio.png">
+    </div>
+    <div class="about-col-2">
+      <h1 class="sub-title">About Me</h1>
+      <p>I am an experienced Front end Developer with a strong background in information technology and a proven track record of leading successful teams. With a passion for technology and a strategic mindset, I excel in overseeing and optimizing IT operations to drive business growth. My leadership skills, coupled with my technical expertise, allow me to effectively align technology solutions with organizational objectives. I am committed to staying abreast of the latest industry trends and implementing innovative solutions to enhance productivity, security, and efficiency</p>
+      <!--p>I am a dedicated and experienced financial adviser committed to helping individuals and families secure their financial future. With a passion for guiding clients through complex financial decisions, I provide personalized solutions tailored to their unique goals and circumstances. Through a holistic approach, I navigate the intricacies of investment planning, retirement strategies, and risk management to empower my clients to make informed choices. With a focus on trust, transparency, and open communication, I strive to build long-lasting relationships founded on mutual respect and shared success. Let's embark on a financial journey together and create a roadmap to achieve your aspirations.</p-->
+      <div class="tab-titles">
+        <p class="tab-links active-link" onclick="opentab('skills')">Skiils</p>
+        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+        <p class="tab-links" onclick="opentab('education')">Education</p>
+    </div>
+    <div class="tab-contents active-tab" id="skills">
+      <ul>  
+        <li><span>UI/UX</span><br>Developing Web/App interfaces</li>
+        <li><span>Web Development</span><br>Web app Development</li>
+      </ul>
+    </div>
+    <div class="tab-contents" id='experience' >
+      <ul>
+        <li><span>2022-2023</span><br>Project Manager at Samdock</li>
+        <li><span>2018-2022</span><br>IT Manager at Arsonic International</li>
+        <li><span>2011-2018</span><br>Software consultant at Qatar Insurance Company</li>
+      </ul>
+    </div>
+    <div class="tab-contents" id='education'>
+      <ul>
+        <li><span>2023</span><br>MBA Finance - EU Business School</li>
+        <li><span>2004 </span><br>BE IT - Bhilai Institute of Technology</li>
+      </ul>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+<div id="services">
+  <div class="container">
+    <h1 class="sub-title">My Services</h1>
+    <div class="service-list">
+      <div>
+        <i class="fa-solid fa-code"></i>
+        <h1>Web Design</h1>
+        <p></p>
+        <a href="#">Learn more</a>
+      </div>
+      <div>
+        <i class="fa-solid fa-crop"></i>
+        <h1>UI/UX Design</h1>
+        <p></p>
+        <a href="#">Learn more</a>
+      </div>
+      <div>
+        <i class="fa-brands fa-app-store-ios"></i>
+        <h1>App Design</h1>
+        <p></p>
+        <a href="#">Learn more</a>
+      </div>
+    </div>
+  </div>
+</div>
+<!------------Portfolio----------------->
+<div id="Portfolio">
+  <div class="container">
+    <h1 class="sub-title">My Work</h1>
+    <div class="work-list">
+      <div class="work">
+      <img src="./images/manjusha_portfolio.png">
+      <div class="layer">
+        <h3>Social Media App</h3>
+        <p>The app connect you to the talented people around the world. Download it from play store.</p>
+        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+      </div>
+    </div>
+    <div class="work">
+      <img src="./images/manjusha_portfolio.png">
+      <div class="layer">
+        <h3>Music App</h3>
+        <p>The app connect you to the talented people around the world. Download it from play store.</p>
+        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+      </div>
+    </div>
+    <div class="work">
+      <img src="./images/manjusha_portfolio.png">
+      <div class="layer">
+        <h3>Online Shoping App</h3>
+        <p>The app connect you to the talented people around the world. Download it from play store.</p>
+        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+      </div>
+    </div>
+  </div>
+  <a href="#" class="btn">See more</a>
+  </div>
+</div>
+<!------------------------Contact------------------>
+<div id="contact"> 
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p><i class="fa-sharp fa-solid fa-paper-plane"></i>manjusamanker@gmail.com</p>
+        <p><i class="fa-solid fa-phone"></i>04 33273737</p>
+        <div class="social-icons">
+          <a herf=""><i class="fa-brands fa-facebook"></i></a>
+          <a herf=""><i class="fa-brands fa-twitter"></i></a>
+          <a herf=""><i class="fa-brands fa-instagram"></i></a>
+          <a herf=""><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <a href="./images/ManjushaManker.pdf" download class="btn btn2">Download CV</a>
+      </div>
+      <div class="contact-right">
+        <form name="submit-to-google-sheet">
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="email" name="Email" placeholder="Your Email" required>
+          <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+          <button type="submit" class="btn btn2">Submit</button>
+        </form>
+        <span id="msg"></span>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <p>Copyright @ Manjusa <i class="fa-solid fa-heart"></i> DVAG</p>
+  </div>
+</div>
+<script>
+
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname) {
+      for(tablink of tablinks) {
+        tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents) {
+      tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+
+    }
+</script>
+<script>
+   var sidemenu=document.getElementById("sidemenu");
+
+   function openmenu() {
+    sidemenu.style.right = "0"
+   }
+   function closemenu() {
+    sidemenu.style.right = "-200"
+   }
+</script>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbxZQYnMENaBlz1lC6JcuPOmxYM16frzrIKa99s0ATuhJYPifuoB7EUH5EzlTKC9mbK3/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg=document.getElementById("msg");
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => 
+      { 
+        msg.innerHTML="Message sent successfully!"
+        setTimeout(function(){
+          msg.innerHTML = ""
+        },5000)
+        form.reset()
+    })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+
+</html>
